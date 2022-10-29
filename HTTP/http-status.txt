@@ -1,0 +1,8 @@
+hanya ada di response
+mengindikasikan apakah request yg diterima sukses, gagal, atau hal lain yg harus di ketahui klien
+http  status ada lima grup, yaitu:
+1. Informational response (100-199)->diterima/dimengerti
+2. Successful Response (200-299)->telah diterima dan sukses di proses oleh server
+3. Redirect(300-399)->harus melakukan aksi selanjutnya untuk menyelesaikan request
+4. Client eror (400-499)->request tidak diterima oleh server, dianggap tidak valid
+5. Server eror (500-599)->kesalahan di server

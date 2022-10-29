@@ -1,0 +1,6 @@
+Stateless artinya tiap request yg di lakukan, dia tidak tahu request sebelumnya dan selanjutnya
+
+HTTP COOKIE
+- merupakan informasi yg di berikan oleh server dan client yg secara otomatis menyimpan data tersebut
+-ketika web browser melakukan request selanjtnya maka web akan menyisihkan cookie tersebut yg di terima di request sebelumnya
+-dari cookie tersebut server bisa mengetahui apakah request tersebut merupakan ruquest client yg sudah login atau belum.

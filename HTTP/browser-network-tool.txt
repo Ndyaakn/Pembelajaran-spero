@@ -1,0 +1,5 @@
+Browser network tool
+-untuk lebih mempermudah melihat apa yang di lakukan di belakang web browser, biasanya web browser memiliki fitur network tool
+-cthnya di browser seperti google chrom, dan firefox sudah memiliki network tool
+-dengan network tool kita bisa melihat semua detail HTTP request dan HTTP response yang di lakukan oleh client dan server
+

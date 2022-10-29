@@ -1,0 +1,17 @@
+HTTP message
+-http request dan response sebenarnya ialah sebuah http message
+-http message memiliki standarisasi format
+
+HTTP message untuk request:
+1. Start line: POST /login HTTP/1.1
+2. Header: 
+-HOST: (domain)example.com
+-Connection: keep-alive
+-accept: application/json
+-User-Agent: Mozilla/5.0 ...
+-Content-Type: application/json
+-Content-lENGHT: 51
+3. Space:
+4. Body:
+
+

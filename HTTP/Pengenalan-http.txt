@@ -1,0 +1,15 @@
+-HTTP singkatan dari Hypertext Transfer Protocol
+-HTTP merupakan protokol untuk melakukan transmisi hypermedia, seperti HTML, Javascript, CSS, Image, Audio, dll
+-HTTP awalnya di design untuk komunikasi antara  web brow dan web server namun saat ini sering juga di gunakan untuk kebutuhan lain
+-HTTP mengikuti arsitektur client dan server
+-Client mengirimkan HTTP request untuk meminta atau mengirim informasi ke server
+-Dan server membalasnya dengan HTTP response dari HTTP request yang di terima
+1. Plain Language and human readable, 
+-HTTP didesaign menggunakan bahasa yang mudah dimengerti oleh bahasa manusia seperti: get, post, put, delete, head, option
+2. Stateless
+-HTTP merupakan protokol yang Stateless-Artinya tiap HTTP request merupakan request yang indenpendent, tidak ada hubunganya dengan request sebelumnya atau setelahnya
+-Hal ini dilakukan agar HTTP request secara bebas tanpa ada aturan harus di mulai dari manusia
+3. Session
+-jika HTTP merupakan protokol yang stateless, bagaimana dengan session? misal client harus login terlebih dahulu sebelum berinteraksi?
+-Untuk menanggani permasalahan seperti , HTTP memiliki fitur yang bernama HTTP cookie
+-HTTP Cookie memaksa client menyimpan informasi yang di berikan oleh server

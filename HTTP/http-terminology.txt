@@ -1,0 +1,27 @@
+Web browser
+-merupakan apk yang di gunakan untuk mengakses web menggunakan protokol HTTP
+-Cth: google chrome
+
+TCP
+-singkatan dari transmission control protocol, salah satu protokol dalam jaringan komputer yg biasa di gunakan oleh web, email, FTP, dll
+-Jika kita menggunakan jaringan internet kemungkinan besar kita akan menggunakan protocol TCP untuk melakukan koneksi ke jaringannya
+
+I P 
+-singkatan dari internet protocol
+-diginakan sebagai identitas komputer di jaringan
+-setiap komputer baik itu  client dan server akan memiliki IP
+
+URL
+-singkatan dari Uniform resource locator
+-merupakan alamat dari sebuah resource di web
+
+DNS
+-singkatan dari domain name server
+-merupakan tempat yg berisi data katalog pemetaan anatara nama domain di url menuju lokasi ip komputer
+-saat web browser mengakses sebuah domain di web, sebenarnya prosesnya akan bertanya ke DNS untuk mendapatkan IP lalu web browser akan melakukan request ke IP tersebut
+
+WEB server
+-merupakan aplikasi yang berjalan di jaringan internet yang bertugassebagai server
+-berisi informasi dan data yang biasa di akses oleh client
+-akan menerima request dari client, dan membalas request tersebut berupa informasi yang diminta oleh client
+

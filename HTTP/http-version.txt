@@ -1,0 +1,17 @@
+1. HTTP Version
+-spesifikasi http selalu diperbaharui 
+-saat ini kebanyakan web berjalan di http/1.1 atau http2 
+-http2 mulai hadir sekitar tahun 2015 dan saat ini sudah banyak diadopsi oleh semua web di dunia
+
+2. HTTP/1.1 vs HTTP/2
+-saat ini http/1.1 merupakan fallback Protocol dimana web browser secara default akan melakukan request menggunakan http/2 jika web server tidak mendukung maka  web browser akan melakukan fallback ke protokol http/1.1
+-secara garis besar spesifikasi http/2 = http/1.1 yang membedakan adalah pada http/2, http request yang dikirim dalam bentuk teks secara otomatis menjadi binary, sehingga lebih cepat dibandingkan http/1.1
+-Selain itu di http/2 menggunakan algoritma komprensi untuk memperkecil request dan mendukung multiplexing, sehingga bisa mengirim beberapa request dalam 1 connection yang sama
+-dari sisi pembuatan aplikasi tidak ada perbedaan, semua ini biasanya sudah diurus secara otomatis melalui web server yang kita gunakan
+
+3. HTTPS
+-Secara default http tidaklah aman, orang ketiga bisa mencuri informasi dari web kita 
+-https merupakan http dengan enskripsi 
+-perbedaan http dan https adalah pada https menggunakan SSL (secure sockets layer) untuk melakukan enkripsi http request dan http response 
+-hasilnya https jauh lebih aman dibandingkan dengan http biasa 
+-web yang menggunakan https akan menggunakan https:// pada urlnya dan yang hanya menggunakan HTTP tanpa enskripsi akan menggunakan http://

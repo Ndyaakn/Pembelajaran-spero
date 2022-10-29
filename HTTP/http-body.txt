@@ -1,0 +1,13 @@
+HTTP BODY
+-data yang hanya bisa dikirm di http request
+-dikirim dari client ke server atau sebaliknya
+
+
+CONTENT TYPE
+-HTTP body erat kaitannya dgn header key content TYPE
+-biasanya agar client dan server mudah mengerti isi http body, http message akan memiliki header content   type yg berisikan informasi tipe data http body
+-http body bisa berisikan teks html, js, css, json, dll
+
+
+REDIRECT
+biasanya respon http status redirect selalu di barengi dengan informasi url redirectnya dan itu disimpan pada header location

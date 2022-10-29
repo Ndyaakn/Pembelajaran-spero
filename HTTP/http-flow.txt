@@ -1,0 +1,19 @@
+server
+-merupakan sebuah komputer, dimana semua informasi disimpan pada komputer tersebut
+-komputer server basanya menjalankan apk web server agar bisa menerima protocol http
+
+Client
+-komputer yg bertugas mengirim http request ke server
+-untuk mengirim http biasanya client akan menggunakan apk web browser
+-client dan server akan terkoneksi menggunakan jaringan yang sama agar bisa berkomunikasi
+
+Request 
+-client akan mengirim request ke server dalam bentuk HTTP request
+-HTTP request berisikan informasi seperti lokasi resource, data yang dikirim jika ada, dll
+-HTTP request akan di terima oleh server
+-selanjutnya server akan memproses request yang diminta oleh client tersebut
+
+Response
+-setelah server memproses HTTP request yang dikirim oleh lient
+-server akan membahas dengan HTTP response
+-HTTP response biasanya berisikan data yang dimintai oleh client dalam HTTP request

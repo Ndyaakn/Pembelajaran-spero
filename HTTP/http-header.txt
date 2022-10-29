@@ -1,0 +1,8 @@
+2. Header: 
+-HOST: Auth pada URL wajib sejak versi http/1.1
+-Connection: keep-alive
+-accept: tipe data yang diterima client
+-User-Agent: Informasi user agent (seperti browser dan sistem operasi)
+-Authorization : Credential untuk autentikasi (misal username + pw)
+-Content-Type: tipe data dari http body
+-Content-lENGHT: 51
