@@ -1,0 +1,3 @@
+jenis http method:
+1. GET -> request data
+2. HEAD-> sama seperti get tapi tanpa response body.
