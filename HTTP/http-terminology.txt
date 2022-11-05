@@ -8,7 +8,7 @@ TCP
 
 I P 
 -singkatan dari internet protocol
--diginakan sebagai identitas komputer di jaringan
+-digunakan sebagai identitas komputer di jaringan
 -setiap komputer baik itu  client dan server akan memiliki IP
 
 URL

@@ -8,7 +8,7 @@
 -HTTP didesaign menggunakan bahasa yang mudah dimengerti oleh bahasa manusia seperti: get, post, put, delete, head, option
 2. Stateless
 -HTTP merupakan protokol yang Stateless-Artinya tiap HTTP request merupakan request yang indenpendent, tidak ada hubunganya dengan request sebelumnya atau setelahnya
--Hal ini dilakukan agar HTTP request secara bebas tanpa ada aturan harus di mulai dari manusia
+-Hal ini dilakukan agar HTTP request secara bebas tanpa ada aturan harus di mulai dari mana
 3. Session
 -jika HTTP merupakan protokol yang stateless, bagaimana dengan session? misal client harus login terlebih dahulu sebelum berinteraksi?
 -Untuk menanggani permasalahan seperti , HTTP memiliki fitur yang bernama HTTP cookie
