@@ -34,7 +34,7 @@ echo "floating point dengan E notaion plus (1.2 x 1000) : ";
 var_dump(1.2e3);
 
 echo "floating point dengan E notaion Minu (7 x 0.001) : ";
-var_dump(1.7e-3);
+var_dump(7e-3);
 echo "underscore kali floating point  : ";
 var_dump(1_123.123);
 
@@ -44,5 +44,5 @@ var_dump(1_123.123);
 
 echo "Integer overflow 32 bit : ";
 var_dump(2147483648);
-echo "Integer overflow 32 bit : ";
+echo "Integer overflow 64 bit : ";
 var_dump(9223372036854775808);
