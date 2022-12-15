@@ -1,9 +1,8 @@
-<!-- Switch statement
+<?php
+/*Switch statement
 -kadang kita hanya butuh menggunakan kondisi sederhana di if statement seperti hanya menggunakan perbandingan == 
 -switch adalah statement percabangan yang sama dengan if, namun lebih sederhana cara pembuatannya 
--kondisi di switch statement hanya untuk perbandingan == -->
-
-<?php
+-kondisi di switch statement hanya untuk perbandingan == */
 $nilai = "A";
 switch ($nilai) {
     case "A":

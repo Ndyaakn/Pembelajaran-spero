@@ -70,7 +70,7 @@ value dari sebelumnya */
 
 function increment()
 {
-   static $counter = 1; //static scope
+    static $counter = 1; //static scope
     echo "counter = $counter" .PHP_EOL;
 
     $counter++;

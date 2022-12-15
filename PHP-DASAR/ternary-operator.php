@@ -1,10 +1,11 @@
-<!-- Ternary Operator
+<?php
+/*Ternary Operator
 -kadang ada kasus kita butuh melakukan pengecekan kondisi menggunakan if statement, lalu jika
 benar kita ingin memberi nilai terhadap variable dengan nilai x dab jika salah dengan nilai Y 
 -penggunaan if statement pada kasus seperti bisa di persingkat dengan mengunakan ternary operation 
--ternary operator menngunakan katakunci ? dan : -->
+-ternary operator menngunakan katakunci ? dan : */
 
-<?php
+
 $gender = "PRIA";
 $hi = null;
 

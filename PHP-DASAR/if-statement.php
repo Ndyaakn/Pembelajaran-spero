@@ -63,11 +63,11 @@ $nilai = 70;
 $absen = 90;
 if($nilai >= 80 && $absen >= 80){
     echo "Nilai anda a" .PHP_EOL;
-} elseif ($nilai >= 70 && $absen >+ 70){
+} elseif ($nilai >= 70 && $absen >= 70){
     echo "Nilai anda b" .PHP_EOL;
-} elseif ($nilai >= 60 && $absen >+ 60){
+} elseif ($nilai >= 60 && $absen >= 60){
     echo "Nilai anda c" .PHP_EOL;
-} elseif ($nilai >= 50 && $absen >+ 50){
+} elseif ($nilai >= 50 && $absen >= 50){
     echo "Nilai anda d" .PHP_EOL;
 } else{
     echo "Nilai anda E" . PHP_EOL;

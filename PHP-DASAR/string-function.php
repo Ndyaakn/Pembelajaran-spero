@@ -13,5 +13,5 @@ trim()              menghapus whitespace didepan dan belakang string */
 var_dump(join(",", [10, 11, 12, 13, 14, 15]));
 var_dump(explode(" ", "eko kurniawan khanendy"));
 var_dump(strtoupper( "eko kurniawan khanendy"));
-var_dump(trim( "     eko kurniawan khanendy"));
+var_dump(trim( "     eko kurniawan khanendy    "));
 var_dump(substr( "eko kurniawan khanendy", 0, 3));

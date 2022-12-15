@@ -1,4 +1,5 @@
-<!-- For loop 
+<?php
+/*For loop 
 -For adalah salah satu kata kunci yg bisa di gunakan utk melakukan perulangan
 -Blok kode yg terdapat di dalam for akan selalu diualngi selama kondisi for terpenuhi 
  
@@ -11,9 +12,9 @@ for(init statement; kondisi; post statement){
 -kondisi akan dilakukan pengecekan dalam setiap perulangan, jika true perulangan akan di lakukan
  jika false perulangan akan berhenti 
  -Post statement akan diekseekusi setiap kali diakhir perulangan 
- -Init statement, kondisi dan post statement tidak wajib diisi, jika kondisi tidak diisi berartu kondisi selalu bernilai true -->
+ -Init statement, kondisi dan post statement tidak wajib diisi, jika kondisi tidak diisi berartu kondisi selalu bernilai true */
 
- <?php
+ 
 //  for (; ;){
 //     echo "Hello ini adalah for loop" .PHP_EOL;
 //  }

@@ -36,12 +36,12 @@ $name = "eko";
 echo $name[0].PHP_EOL;
 echo $name[1].PHP_EOL;
 echo $name[2].PHP_EOL;
-echo $name[3].PHP_EOL;
+//echo $name[3].PHP_EOL;
 
 // Variable parsing 
-// -khusus string menggunakan double quote atau heredoc kita bisa menggunakan karakter 4 untuk mengakses variable 
+// -khusus string menggunakan double quote atau heredoc kita bisa menggunakan karakter $ untuk mengakses variable 
 // -ini mempermudah ketika kita ingin menggabungkan string dengan variable 
-// -cara penggunaannya adalah dengan menggunakan karakter 4 LALU DIIKUTI DENGAN NAMA VARIABLENYA
+// -cara penggunaannya adalah dengan menggunakan karakter $ LALU DIIKUTI DENGAN NAMA VARIABLENYA
 
 // Kode : Variable parsing 
 

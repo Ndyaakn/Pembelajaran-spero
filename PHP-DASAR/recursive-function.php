@@ -34,6 +34,8 @@ var_dump(factorialRecursive(6));
 // maka akan terjadi eror memory
 
 //factorialRecursive(5) * factorialRecursive(4) * factorialRecursive(3) * factorialRecursive(2) * factorialRecursive(1)
+//
+/* */
 
 function loop(int $value)
 {
@@ -45,4 +47,4 @@ function loop(int $value)
         loop($value-1);
     }
 }
-loop(3);
+loop(300);

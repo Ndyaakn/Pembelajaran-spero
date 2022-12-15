@@ -25,7 +25,7 @@ echo $name .PHP_EOL;
 
 function increment(int &$value)
 {
-    $value--;
+    $value++;
 }
 
 $counter = 10;

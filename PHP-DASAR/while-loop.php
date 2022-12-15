@@ -1,9 +1,10 @@
-While loop 
--adalah versi perulangan yg lebih sederhana dari pada for loop 
--hanya terdapat kondisi perulangan tanpa ada init statement dan post statement, hanya menggunakan kondisi 
-
-
 <?php
+/*While loop 
+-adalah versi perulangan yg lebih sederhana dari pada for loop 
+-hanya terdapat kondisi perulangan tanpa ada init statement dan post statement, hanya menggunakan kondisi */
+
+
+
 $counter = 1;
 
 // while ($counter <= 10) {

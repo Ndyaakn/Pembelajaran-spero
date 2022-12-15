@@ -1,10 +1,11 @@
-<!-- Null coalescing operator
+<?php
+/*Null coalescing operator
 -sebelumnya kita tahu bahwa data kosong dipresentasikan dengan data NULL di php 
 -dan hal yang paling repot di php adalah mengecek apakah sebuah data ada atau tidak dan juga apakah data tersebut isinya null atau bukan 
 -biasanya untuk melakukan itu kita perlu menggunakan pengecekan if statement dengan function isset($variable)
--namun untungnya di php ada null coalescing operator menggunakan tanda ?? -->
+-namun untungnya di php ada null coalescing operator menggunakan tanda ?? */
 
-<?php
+
 $data = [
     "action" => "Create"
 ];

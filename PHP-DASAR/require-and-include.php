@@ -24,4 +24,4 @@ akan berkali kali pula kita ambil
 hal ini akan menjadi masalah jika misal dalam file yang kta ambil terdapat defenisi function,
 sehingga jika diambil berkali kali akan menyebabkan error redeclare function 
 -untungnya di php terdapat function require_once dan include_once, function ini bisa mendektesi jika kita
-sebelumnya pernah mengambil file yang sama, maka tidak akan diambil lagi 
+sebelumnya pernah mengambil file yang sama, maka tidak akan diambil lagi */
